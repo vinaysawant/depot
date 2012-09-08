@@ -1,0 +1,14 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1346949650.5534644:@value"Ï[I"Â(function() {
+  /(?:)/;
+
+  $(function() {
+    return $('.store .entry > img').click(function() {
+      return $(this).parent().find(':submit').click();
+    });
+  });
+
+  /(?:)/;
+
+
+}).call(this);
+:ET

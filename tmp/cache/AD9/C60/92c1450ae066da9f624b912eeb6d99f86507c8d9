@@ -1,0 +1,90 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1346951913.0557804:@value" [IC:ActionView::OutputBuffer"ê<!-- START:head -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pragprog Books Online Store</title>
+  <link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/admin.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/carts.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/line_items.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/orders.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/products.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/scaffolds.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/sessions.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/store.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/users.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-ui.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/admin.js?body=1" type="text/javascript"></script>
+<script src="/assets/carts.js?body=1" type="text/javascript"></script>
+<script src="/assets/line_items.js?body=1" type="text/javascript"></script>
+<script src="/assets/orders.js?body=1" type="text/javascript"></script>
+<script src="/assets/products.js?body=1" type="text/javascript"></script>
+<script src="/assets/sessions.js?body=1" type="text/javascript"></script>
+<script src="/assets/store.js?body=1" type="text/javascript"></script>
+<script src="/assets/users.js?body=1" type="text/javascript"></script>
+<script src="/assets/application.js?body=1" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="cb5dcsFAPheTNHLGP7DpkkFc0hGn0+yTtRwO0roKL/8=" name="csrf-token" />
+</head>
+<!-- END:head -->
+<body class="store">
+<!-- START:i18n -->
+  <div id="banner">
+<!-- START_HIGHLIGHT -->
+    <form accept-charset="UTF-8" action="/en" class="locale" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cb5dcsFAPheTNHLGP7DpkkFc0hGn0+yTtRwO0roKL/8=" /></div>
+      <select id="set_locale" name="set_locale" onchange="this.form.submit()"><option value="en" selected="selected">English</option>
+<option value="es">Espa&ntilde;ol</option></select>
+      <input name="commit" type="submit" value="submit" />
+      <script type="text/javascript">
+//<![CDATA[
+$('.locale input').hide()
+//]]>
+</script>
+</form><!-- END_HIGHLIGHT -->
+    <img alt="Logo" src="/assets/logo.png" />
+    Pragmatic Bookshelf
+  </div>
+<!-- END:i18n -->
+  <div id="columns">
+    <div id="side">
+      <!-- START:hidden_div -->
+        <div id="cart" style="display: none">
+          <!-- START_HIGHLIGHT -->
+<h2>Your Cart</h2>
+<!-- END_HIGHLIGHT -->
+<table>
+  
+
+  <tr class="total_line">
+    <td colspan="2">Total</td>
+    <td class="total_cell">$0.00</td>
+  </tr>
+
+</table>
+
+<!-- START_HIGHLIGHT -->
+<form action="/en/orders/new" class="button_to" method="get"><div><input type="submit" value="Checkout" /></div></form>
+<!-- END_HIGHLIGHT -->
+<!-- START_HIGHLIGHT -->
+<form action="/en/carts/9" class="button_to" method="post"><div><input name="_method" type="hidden" value="delete" /><input data-confirm="Are you sure?" type="submit" value="Empty cart" /><input name="authenticity_token" type="hidden" value="cb5dcsFAPheTNHLGP7DpkkFc0hGn0+yTtRwO0roKL/8=" /></div></form>
+
+</div>    <!-- END:hidden_div -->
+
+      <ul>
+        <li><a href="http://www....">Home</a></li>
+        <li><a href="http://www..../faq">Questions</a></li>
+        <li><a href="http://www..../news">News</a></li>
+        <li><a href="http://www..../contact">Contact</a></li>
+      </ul>
+
+    </div>
+    <div id="main">
+      <h1>Your Pragmatic Catalog</h1>
+
+    </div>
+  </div>
+</body>
+</html>
+:ET:@html_safeT
